@@ -1,0 +1,29 @@
+{
+  "name": "typescript-to-externs",
+  "version": "0.1.0",
+  "description": "Convert TypeScript type definition files to Google Closure externs files.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "closure",
+    "externs"
+  ],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rigdern/typescript-to-externs"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/rigdern/typescript-to-externs/blob/master/LICENSE.txt"
+  },
+  "bin": {
+    "typescript-to-externs": "./main.js"
+  },
+  "dependencies": {
+    "sugar": "^1.4.1"
+  }
+}
